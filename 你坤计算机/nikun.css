@@ -1,0 +1,67 @@
+#calculator {
+    width: 350px;
+    margin: 0 auto;
+    border: 3px solid #d80a0a;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(坤_jpg.jpg);
+    background-position: top center; /* 将背景图片在页面顶部居中显示 */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  #calculator1 {
+    width: 350px;
+    margin:auto;
+    border: 3px solid #d80a0a;
+    padding: 10px;
+    
+  }
+  
+  .display {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    border: 3px solid #3205f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #bebebe; /* 设置背景色 */
+    color: #07f0e4; /* 设置字体颜色 */
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 15px;
+  }
+  
+  button {
+    flex: 1;
+    height: 50px;
+    font-size: 24px;
+    border: none; /* 将边框设置为空 */
+    border-radius: 5px;
+    background-color: 50%; /* 将背景色设置为透明 */
+    opacity: 50%; /* 将透明度设置为0 */
+    cursor: pointer;
+    color: #bf1414;
+  }
+  
+  button:hover {
+    background-color: #c92c2c;
+  }
+  /* 添加以下样式到你的 CSS 文件中 */
+  button:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(94, 10, 249);
+    color: #09fed9;
+    text-shadow: 0 0 10px #35d142;
+    box-shadow: 0 0 20px #1092c9;
+  }
+  .kun{
+    text-align: center;
+    display: block; /* 将按钮设置为块级元素 */
+    margin: 0 auto; /* 在左右两侧使用auto来实现水平居中 */
+  }
